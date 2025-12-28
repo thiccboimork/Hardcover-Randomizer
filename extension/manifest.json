@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Hardcover Randomizer",
+  "version": "1.0.0",
+  "description": "Add a random book picker to your Hardcover Want to Read shelf",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://hardcover.app/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://hardcover.app/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
