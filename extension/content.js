@@ -1,5 +1,5 @@
-// Configuration - update this to your backend URL
-const BACKEND_URL = 'http://localhost:4000';
+
+const BACKEND_URL = 'https://hardcover-randomizer.onrender.com';
 
 // Add the randomizer button to the page
 function addRandomizerButton() {
